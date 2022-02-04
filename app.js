@@ -1,4 +1,6 @@
 let listItems = [...document.querySelectorAll('li')]
+var controller = new ScrollMagic.Controller();
+
 
 let options = {
     rootMargin: '-10%',
